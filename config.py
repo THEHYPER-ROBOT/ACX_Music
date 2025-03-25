@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = int(getenv("OWNER_ID", "7763229951"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ACX_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ACX_DISCUSSION")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -57,7 +57,7 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "bcfe26b0ebc3428882a0b5fb3e872473")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c214005aeae1fd752273cc4")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "907c6a054c29o14005aeae1fd752273cc4")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -90,7 +90,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/5rs2ur.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
